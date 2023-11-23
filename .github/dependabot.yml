@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: cargo
+    directory: "/folwup_cli"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+  - package-ecosystem: cargo
+    directory: "/folwup_core"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+  - package-ecosystem: cargo
+    directory: "/folwup_sqlite"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10

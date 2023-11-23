@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+  "folwup_cli",
+  "folwup_core",
+  "folwup_sqlite",
+]
